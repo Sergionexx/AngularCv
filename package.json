@@ -7,14 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "lite": "lite-server",
-    "postinstall": "ng build --prod"
+    "e2e": "ng e2e"
   },
-  "engines": {
-	"node": "10.14.2",
-    "npm": "6.4.1"
-}
   "private": true,
   "dependencies": {
     "@angular/animations": "~10.1.0",
@@ -30,7 +24,6 @@
     "express": "^4.17.1",
     "jquery": "^3.5.1",
     "rxjs": "~6.6.0",
-     "express": "^4.17.1",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },
